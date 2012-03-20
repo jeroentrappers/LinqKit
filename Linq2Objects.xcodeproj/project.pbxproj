@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36C265C7151922CC0014B470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C265C6151922CC0014B470 /* Foundation.framework */; };
+		36C265CA151922CC0014B470 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C265C9151922CC0014B470 /* main.m */; };
+		36C265CE151922CC0014B470 /* Linq2Objects.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36C265CD151922CC0014B470 /* Linq2Objects.1 */; };
+		36C265D6151923850014B470 /* NSObject+Linq.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C265D5151923850014B470 /* NSObject+Linq.m */; };
+		36C265D9151924EF0014B470 /* LinqWhereEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C265D8151924EF0014B470 /* LinqWhereEnumerator.m */; };
+		36C265DC15192F7D0014B470 /* LinqSelectEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C265DB15192F7D0014B470 /* LinqSelectEnumerator.m */; };
+		36C265DF151932D50014B470 /* LinqSkipEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C265DE151932D50014B470 /* LinqSkipEnumerator.m */; };
+		36C265E21519332A0014B470 /* LinqEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C265E11519332A0014B470 /* LinqEnumerator.m */; };
+		36C265E61519368E0014B470 /* LinqTakeEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C265E51519368E0014B470 /* LinqTakeEnumerator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36C265C0151922CC0014B470 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				36C265CE151922CC0014B470 /* Linq2Objects.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		36C265C2151922CC0014B470 /* Linq2Objects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Linq2Objects; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C265C6151922CC0014B470 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36C265C9151922CC0014B470 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36C265CC151922CC0014B470 /* Linq2Objects-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Linq2Objects-Prefix.pch"; sourceTree = "<group>"; };
+		36C265CD151922CC0014B470 /* Linq2Objects.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Linq2Objects.1; sourceTree = "<group>"; };
+		36C265D5151923850014B470 /* NSObject+Linq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Linq.m"; sourceTree = "<group>"; };
+		36C265D7151924EF0014B470 /* LinqWhereEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinqWhereEnumerator.h; sourceTree = "<group>"; };
+		36C265D8151924EF0014B470 /* LinqWhereEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinqWhereEnumerator.m; sourceTree = "<group>"; };
+		36C265DA15192F7D0014B470 /* LinqSelectEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinqSelectEnumerator.h; sourceTree = "<group>"; };
+		36C265DB15192F7D0014B470 /* LinqSelectEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinqSelectEnumerator.m; sourceTree = "<group>"; };
+		36C265DD151932D50014B470 /* LinqSkipEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinqSkipEnumerator.h; sourceTree = "<group>"; };
+		36C265DE151932D50014B470 /* LinqSkipEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinqSkipEnumerator.m; sourceTree = "<group>"; };
+		36C265E01519332A0014B470 /* LinqEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinqEnumerator.h; sourceTree = "<group>"; };
+		36C265E11519332A0014B470 /* LinqEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinqEnumerator.m; sourceTree = "<group>"; };
+		36C265E31519359A0014B470 /* NSObject+Linq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Linq.h"; sourceTree = "<group>"; };
+		36C265E41519368E0014B470 /* LinqTakeEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinqTakeEnumerator.h; sourceTree = "<group>"; };
+		36C265E51519368E0014B470 /* LinqTakeEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinqTakeEnumerator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36C265BF151922CC0014B470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C265C7151922CC0014B470 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36C265B7151922CC0014B470 = {
+			isa = PBXGroup;
+			children = (
+				36C265C8151922CC0014B470 /* Linq2Objects */,
+				36C265C5151922CC0014B470 /* Frameworks */,
+				36C265C3151922CC0014B470 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36C265C3151922CC0014B470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36C265C2151922CC0014B470 /* Linq2Objects */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36C265C5151922CC0014B470 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36C265C6151922CC0014B470 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36C265C8151922CC0014B470 /* Linq2Objects */ = {
+			isa = PBXGroup;
+			children = (
+				36C265C9151922CC0014B470 /* main.m */,
+				36C265E31519359A0014B470 /* NSObject+Linq.h */,
+				36C265D5151923850014B470 /* NSObject+Linq.m */,
+				36C265E01519332A0014B470 /* LinqEnumerator.h */,
+				36C265E11519332A0014B470 /* LinqEnumerator.m */,
+				36C265D7151924EF0014B470 /* LinqWhereEnumerator.h */,
+				36C265D8151924EF0014B470 /* LinqWhereEnumerator.m */,
+				36C265DA15192F7D0014B470 /* LinqSelectEnumerator.h */,
+				36C265DB15192F7D0014B470 /* LinqSelectEnumerator.m */,
+				36C265DD151932D50014B470 /* LinqSkipEnumerator.h */,
+				36C265DE151932D50014B470 /* LinqSkipEnumerator.m */,
+				36C265E41519368E0014B470 /* LinqTakeEnumerator.h */,
+				36C265E51519368E0014B470 /* LinqTakeEnumerator.m */,
+				36C265CD151922CC0014B470 /* Linq2Objects.1 */,
+				36C265CB151922CC0014B470 /* Supporting Files */,
+			);
+			path = Linq2Objects;
+			sourceTree = "<group>";
+		};
+		36C265CB151922CC0014B470 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36C265CC151922CC0014B470 /* Linq2Objects-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36C265C1151922CC0014B470 /* Linq2Objects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C265D1151922CC0014B470 /* Build configuration list for PBXNativeTarget "Linq2Objects" */;
+			buildPhases = (
+				36C265BE151922CC0014B470 /* Sources */,
+				36C265BF151922CC0014B470 /* Frameworks */,
+				36C265C0151922CC0014B470 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Linq2Objects;
+			productName = Linq2Objects;
+			productReference = 36C265C2151922CC0014B470 /* Linq2Objects */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36C265B9151922CC0014B470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Me;
+			};
+			buildConfigurationList = 36C265BC151922CC0014B470 /* Build configuration list for PBXProject "Linq2Objects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36C265B7151922CC0014B470;
+			productRefGroup = 36C265C3151922CC0014B470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36C265C1151922CC0014B470 /* Linq2Objects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36C265BE151922CC0014B470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C265CA151922CC0014B470 /* main.m in Sources */,
+				36C265D6151923850014B470 /* NSObject+Linq.m in Sources */,
+				36C265D9151924EF0014B470 /* LinqWhereEnumerator.m in Sources */,
+				36C265DC15192F7D0014B470 /* LinqSelectEnumerator.m in Sources */,
+				36C265DF151932D50014B470 /* LinqSkipEnumerator.m in Sources */,
+				36C265E21519332A0014B470 /* LinqEnumerator.m in Sources */,
+				36C265E61519368E0014B470 /* LinqTakeEnumerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		36C265CF151922CC0014B470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		36C265D0151922CC0014B470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		36C265D2151922CC0014B470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Linq2Objects/Linq2Objects-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36C265D3151922CC0014B470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Linq2Objects/Linq2Objects-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36C265BC151922CC0014B470 /* Build configuration list for PBXProject "Linq2Objects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C265CF151922CC0014B470 /* Debug */,
+				36C265D0151922CC0014B470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C265D1151922CC0014B470 /* Build configuration list for PBXNativeTarget "Linq2Objects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C265D2151922CC0014B470 /* Debug */,
+				36C265D3151922CC0014B470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36C265B9151922CC0014B470 /* Project object */;
+}
