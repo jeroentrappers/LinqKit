@@ -1,0 +1,8 @@
+LinqKit is a proposal for implementing the functionality known as Linq (Language Integrated Query) in .NET, but then for Objective-C.
+
+Currently it is implemented as Categories on NSObject. It works with deferred execution by using custom NSEnumerator subclasses.
+
+For the moment basic implementations of where, select, skip and take have been implemented. Any additions or suggestions are welcomed.
+
+Kind regard,
+Jeroen
